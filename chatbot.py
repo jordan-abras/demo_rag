@@ -6,7 +6,7 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 st.set_page_config(page_title="This is a brand new RAG-LLM !", page_icon="🤖", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
 
-st.title("Wanna know what my research is about?")
+st.title("Wanna get to know BrewMe better?")
 st.info("Let's see what I know", icon="📃")
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
